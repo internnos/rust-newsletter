@@ -22,3 +22,6 @@ tokio = { version = "1", features = ["macros", "rt-multi-thread"] }
 rustflags = ["-C", "link-arg=-fuse-ld=/usr/local/bin/zld"]
 [target.aarch64-apple-darwin]
 rustflags = ["-C", "link-arg=-fuse-ld=/usr/local/bin/zld"]
+
+[dev-dependencies]
+reqwest = "0.11"
